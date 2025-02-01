@@ -101,7 +101,7 @@ const SetupLayout = () => {
                           ? 'bg-gradient-to-r from-blue-500 to-purple-500 text-white shadow-lg' 
                           : 'bg-white text-gray-400 border-2 border-gray-200'
                         }
-                        ${isCurrent ? 'ring-4 ring-purple-100 animate-pulse' : ''}
+                        ${isCurrent ? 'ring-4 ring-purple-200' : ''}
                       `}
                     >
                       <Icon className="w-7 h-7" />

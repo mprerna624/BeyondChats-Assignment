@@ -8,6 +8,10 @@ import ChatbotTest from './components/integration/ChatbotTest';
 
 const App = () => {
   return (
+
+    // Configuration file (vercel.json) is needed to handle client-side routing in Single Page Applications (SPA)
+    // Without this, Vercel will return Error 404 for routes handled by React Router
+
     <BrowserRouter>
       <Toaster position='top-right' />
 
